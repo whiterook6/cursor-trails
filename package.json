@@ -1,0 +1,17 @@
+{
+  "name": "cursor-trails",
+  
+  "version": "1.0.0",
+  "author": "whiterook6",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev:build": "node build/dev-build.mjs",
+    "dev:watch": "node build/dev-watch.mjs",
+    "prod:build": "node build/prod-build.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.1",
+    "typescript": "^5.5.4"
+  }
+}
